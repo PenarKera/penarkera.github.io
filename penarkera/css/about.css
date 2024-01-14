@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d6d6d7;
+}
+
+.menu {
+    width: 100%;
+    background-color: #7c98aa;
+    height: 60px;
+}
+
+.menu img {
+    width: 3%;
+    margin: 10px;
+    float: right;
+}
+
+.menu i {
+    color: white;
+    font-size: 30px;
+    padding: 13px;
+}
+
+.menu2 {
+    width: 100%;
+    color: black;
+    background-color: white;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.menu2 a {
+    text-decoration: none;
+}
+
+.menu2 li {
+    display: inline;
+    color: black;
+    padding: 10px;
+}
+
+.menu2 li:hover {
+    color: #7c98aa;
+    background-color: rgba(128, 128, 128, 0.219);
+}
+
+.image img {
+    width: 100%;
+    max-height: 70vh;
+    object-fit: cover;
+    border-top: solid white 10px;
+    border-bottom: solid white 10px;
+}
+
+.description{
+    width: 90%;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.description h2{
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    height: auto;
+    left: 0;
+}
+
+.description p{
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    height: auto;
+    left: 0;
+}
+
+.fundi {
+    position: relative;
+    background-image: url(cover.jpg);
+    height: 20vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    background-color: #7c98aa;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .menu img {
+        width: 5%;
+    }
+
+    .menu i {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .menu2 {
+        height: auto;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .menu2 li {
+        display: none;
+    }
+
+    .menu2 a {
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        display: inline-block;
+    }
+
+    .menu2 a:hover {
+        color: #7c98aa;
+        background-color: rgba(128, 128, 128, 0.219);
+    }
+
+    .menu2 i {
+        font-size: 30px;
+    }
+
+    .p {
+        width: 90%;
+        max-width: 100%;
+        left: 0;
+        top: 0;
+    }
+}
